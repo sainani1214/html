@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+				background-color: rgb(212, 204, 204);
+			}
+			.form{
+				font-family: Arial, Helvetica, sans-serif;
+				color: rgb(2, 2, 124)
+			}
+			.names{
+				margin-left: 300px;
+				margin-bottom: 20px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 20px;
+			}
+			.firstname{
+				margin-left: 250px;
+				margin-top: 5px;
+				height: 20px;
+				width: 200px;
+			}
+			.lastname{
+				margin-left: 250px;
+				margin-top: 30px;
+				height: 20px;
+				width: 200px;
+			}
+			.fathername{
+				margin-left: 230px;
+				margin-top: 30px;
+				height: 20px;
+				width: 200px;
+			}
+			.qual{
+				margin-left: 240px;
+				margin-top: 30px;
+				height: 20px;
+				width: 60px;
+			}
+			.male{
+				margin-left: 284px;
+				margin-top: 40px;
+			}
+			.job{
+				margin-left: 276px;
+				margin-top: 30px;
+				height: 20px;
+				width: 200px;
+			}
+			.button{
+				text-align: center;
+				font-weight: bold;
+				border-radius: 8px;
+				border-color: black;
+				background-color: lightblue;
+				margin-left: 260px;
+				border-style: solid;
+				padding-left: 15px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-right: 15px;
+				margin-top: 36px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="form">
+
+			<h1><center>Registration Form</center></h1>
+		</div>
+		<div class="names">
+			<label for="firstname">First Name:</label>
+			<input  class="firstname"  type="text" id="firstname"><br>
+			<label for="lastname">Last Name:</label>
+			<input class="lastname" type="text" id="lastname"><br>
+			<label for="fathername">Father Name:</label>
+			<input class="fathername" type="text" id="fathername"><br>
+			<label for="qualification">Qualification:</label>
+			<select class="qual" id="qualification" name="qualification">
+				<option value="BSE">BSE</option>
+				<option value="B.TECH">B.TECH</option>
+				<option value="phd">PhD</option>
+				<option value="other">Other</option>
+			</select><br>
+			<label for="gender">Gender</label>
+			<input class="male" type="radio" >
+			<label>Male</label>
+			<input type="radio">
+			<label>Female</label><br>
+			<label>Job Title:</label>
+			<input class="job" type="text"><br>
+			<input  class="button"  type="button" value="Submit">
+		</div>
+	</body>
+</html>
